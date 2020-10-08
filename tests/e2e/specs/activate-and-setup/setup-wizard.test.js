@@ -100,7 +100,6 @@ describe( 'Store owner can finish initial store setup', () => {
 		await page.click( 'input[value="/%postname%/"]', { text: ' Post name' } );
 
 		// Select "Custom base" in product permalinks section
-		// await page.click( '#woocommerce_custom_selection' );
 		await waitAndClick( page, '#woocommerce_custom_selection' );
 
 		// Fill custom base slug to use
