@@ -16,7 +16,7 @@ import {
 	verifyValueOfInputField
 } from '@woocommerce/e2e-utils';
 
-import { waitAndClick } from '../../env';
+import { waitAndClick } from '@woocommerce/e2e-environment';
 
 describe( 'Store owner can login and make sure WooCommerce is activated', () => {
 	beforeAll( async () => {
